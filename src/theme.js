@@ -562,6 +562,12 @@ function getTheme({ theme, name }) {
           fontStyle: "underline",
         },
       },
+      {
+        scope: "meta.template.expression",
+        settings: {
+          foreground: themes({ light: scale.blue[6], dark: scale.blue[2], dimmed: scale.blue[2] }),
+        },
+      },
     ],
   };
 }

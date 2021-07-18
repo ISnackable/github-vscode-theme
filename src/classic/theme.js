@@ -518,6 +518,12 @@ function getTheme({ style, name }) {
           fontStyle: "underline",
         },
       },
+      {
+        scope: ["meta.template.expression"],
+        settings: {
+          foreground: pick({ light: primer.blue[6], dark: editorForeground }),
+        },
+      },
     ],
   };
 }
